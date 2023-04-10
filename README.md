@@ -18,7 +18,13 @@
 - 졸업논문 pdf는 각 `코드에 대한 설명`과 `실험을 통해 분석한 내용(성능, 실행시간 등)`을 담고 있습니다. 궁금하시다면 참고해주세요!
 
 # 실행방법
-tsp_aco.py 실행
+nodes_1 = [(random.uniform(-90, 90), random.uniform(-180, 180)) for i in range(0, 10)] #5개의 거점 위도, 경도를 랜덤으로 생성  
+위 코드에서 지점의 개수를 정해주시면 됩니다. 테스트 해보니 거점의 수가 많을 수록 결과가 많이 다르고, 적을 수록 비슷했습니다.  
+  
+tsp_aco.py 실행  
+![tsp2](https://user-images.githubusercontent.com/110110403/231015137-0f92c1fe-9e78-41ee-bd3f-2ad01cade639.png)  
+
+
 
 # 어떤 어려움이 있었는지?
 
